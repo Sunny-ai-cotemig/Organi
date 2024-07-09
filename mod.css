@@ -490,3 +490,56 @@ li {
     width: 100%;
     display: block;
 }
+
+section h2{
+    text-align: center;
+    color: #1c1c1c;
+    font-family: 'Cairo';
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+}
+
+section h2:after{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+
+#nameprodu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#nameprodu ul li{
+    font-size: 18;
+    font-family: 'Cairo';
+    color: #1c1c1c;
+    position: relative;
+}
+
+#Linha-verde{
+    position: relative;
+} 
+
+#Linha-verde:after{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 2px;
+    width: 16px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
