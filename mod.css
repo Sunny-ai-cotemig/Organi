@@ -11,25 +11,47 @@
     height: 5vh;
     align-items: center;
     margin: 0px 0px 10px;
+    text-align: center;
 }
 
 #icom {
-    width: 15px;
-    height: 15px;
-    margin-left: 300px;
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
 }
 
 #descr {
     font-size: 1rem;
-    font-family: Cairo;
-    margin-left: 15px;
-    border-right: solid rgb(161, 161, 161) 4px;
+    font-family: 'Cairo';
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+#free-shi{
+    margin-left: 20px;
+    font-family: 'Cairo';
+}
+
+#icon-inicio{
+    margin-left: 420px;
+    display: flex;
+}
+
+#icon-inicio ul{
+    list-style: none;
+    display: flex;
+}
+
+.icon-ini{
+    width: 15px;
+    height: 15px;
 }
 
 #main {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
     grid-template-rows: 80px 80px 431px 271px;
+    gap: 20px;
 }
 
 main div {
@@ -82,7 +104,7 @@ main div {
 
 
 
-.aument{
+.aument {
     font-family: 'Cairo';
     font-weight: 700;
     font-size: 14px;
@@ -185,7 +207,7 @@ main div {
 
 .dropdown {
     position: relative;
-   
+
 }
 
 .dropdown-content {
@@ -199,15 +221,15 @@ main div {
     font-family: 'Cairo';
     font-size: 15px;
     height: 56vh;
-     
+
 }
 
 #check {
     display: none;
 }
 
-#check:checked ~.dropdown-content {
-   opacity: 1;
+#check:checked~.dropdown-content {
+    opacity: 1;
 }
 
 li {
@@ -228,25 +250,27 @@ li {
     justify-content: space-evenly;
 }
 
-.icon3{
+.icon3 {
     width: 20px;
 }
 
-#home a{
+#home a {
     color: #7fad39;
 }
-#busca{
+
+#busca {
     display: grid;
     align-items: center;
 }
 
-#Al#border{
+#Al#border {
     border: #979797 1px solid;
     opacity: 0.1;
     width: 80%;
     margin: auto;
 }
-#All_ca{  
+
+#All_ca {
     width: 80%;
     margin: auto;
     display: flex;
@@ -257,15 +281,17 @@ li {
     align-items: center;
 }
 
-#All_ca p{
+#All_ca p {
     padding-left: 30px;
 }
-#traco{
+
+#traco {
     opacity: 0.1;
     width: 1px;
     height: 32px;
 }
-#All_ca input{
+
+#All_ca input {
     width: 40%;
     border: none;
     height: 40px;
@@ -275,24 +301,25 @@ li {
     font-family: 'Cairo';
 }
 
-#botao_inpu{
+#botao_inpu {
     display: grid;
     height: 40px;
     width: 15%;
-   align-items: center;
-   text-align: center;
-   background: #7fad39;
-   
+    align-items: center;
+    text-align: center;
+    background: #7fad39;
+
 }
 
-#botao_inpu a{
+#botao_inpu a {
     text-decoration: none;
     font-family: 'Cairo';
     font-size: 14px;
     color: #ffffff;
     font-weight: 800;
 }
-#busca_num{
+
+#busca_num {
     grid-column: 5/6;
     grid-row: 2;
     display: flex;
@@ -300,7 +327,7 @@ li {
     justify-content: center;
 }
 
-#icon_num{
+#icon_num {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,34 +337,35 @@ li {
     background: #f5f5f5;
     border-radius: 50%;
     float: left;
-    margin-right: 10px; 
+    margin-right: 10px;
     text-align: center;
 }
-#icon_num svg{
+
+#icon_num svg {
     width: 20px;
-    height: 20px; 
+    height: 20px;
 }
 
 
-#numero h5{
+#numero h5 {
     color: #1c1c1c;
     font-weight: 800;
-    
+
     font-size: 18px;
 }
 
-#numero span{
+#numero span {
     font-size: 14px;
     color: #6f6f6f;
     font-family: 'Cairo';
 }
 
-#banner{
+#banner {
     padding: 75px;
     line-height: 52px;
 }
 
-#banner span{
+#banner span {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -346,15 +374,15 @@ li {
     font-family: 'Cairo';
 }
 
-#banner h2{ 
+#banner h2 {
     font-size: 55px;
     color: #252525;
     font-weight: 900;
-    margin: 10px 0; 
+    margin: 10px 0;
     font-family: "Cairo";
-}   
+}
 
-#banner p{
+#banner p {
     font-family: 'Cairo';
     font-size: 14px;
     color: #6f6f6f;
@@ -363,7 +391,7 @@ li {
     margin: 0 0 15px 0;
 }
 
-#banner a{
+#banner a {
     font-size: 14px;
     text-decoration: none;
     font-size: 14px;
@@ -375,7 +403,7 @@ li {
     font-family: 'Cairo';
 }
 
-#prodi1{
+#prodi1 {
     background-image: url(feature-1.jpg);
     background-position: center;
     background-size: cover;
@@ -385,13 +413,13 @@ li {
     align-items: end;
 }
 
-#prodi1 div{
+#prodi1 div {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
 }
 
-#prodi1 a{
+#prodi1 a {
     padding: 12px;
     text-decoration: none;
     font-size: 14px;
@@ -404,8 +432,8 @@ li {
     display: block;
 }
 
-#prodi2{
-    background-image:url(cat-4.jpg) ;
+#prodi2 {
+    background-image: url(cat-4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -414,13 +442,13 @@ li {
     align-items: end;
 }
 
-#prodi2 div{
+#prodi2 div {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
 }
 
-#prodi2 a{
+#prodi2 a {
     padding: 12px;
     text-decoration: none;
     font-size: 14px;
@@ -433,8 +461,8 @@ li {
     display: block;
 }
 
-#prodi3{
-    background-image:url(cat-2.jpg) ;
+#prodi3 {
+    background-image: url(cat-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -443,13 +471,13 @@ li {
     align-items: end;
 }
 
-#prodi3 div{
+#prodi3 div {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
 }
 
-#prodi3 a{
+#prodi3 a {
     padding: 12px;
     text-decoration: none;
     font-size: 14px;
@@ -462,8 +490,8 @@ li {
     display: block;
 }
 
-#prod4{
-    background-image:url(cat-1.jpg) ;
+#prod4 {
+    background-image: url(cat-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -472,13 +500,13 @@ li {
     align-items: end;
 }
 
-#prod4 div{
+#prod4 div {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
 }
 
-#prod4 a{
+#prod4 a {
     padding: 12px;
     text-decoration: none;
     font-size: 14px;
@@ -491,7 +519,7 @@ li {
     display: block;
 }
 
-section h2{
+section h2 {
     text-align: center;
     color: #1c1c1c;
     font-family: 'Cairo';
@@ -500,7 +528,7 @@ section h2{
     position: relative;
 }
 
-section h2:after{
+section h2:after {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -512,7 +540,7 @@ section h2:after{
     margin: 0 auto;
 }
 
-#nameprodu ul{
+#nameprodu ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -521,18 +549,18 @@ section h2:after{
     gap: 25px;
 }
 
-#nameprodu ul li{
+#nameprodu ul li {
     font-size: 18;
     font-family: 'Cairo';
     color: #1c1c1c;
     position: relative;
 }
 
-#Linha-verde{
+#Linha-verde {
     position: relative;
-} 
+}
 
-#Linha-verde:after{
+#Linha-verde:after {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -542,4 +570,597 @@ section h2:after{
     background: #7fad39;
     content: "";
     margin: 0 auto;
+}
+
+#img-preco {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
+    grid-template-rows: 270px 80px 270px 80px 268px;
+    gap: 15px;
+}
+
+#img1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(feature-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    grid-column: 3/4;
+    background-image: url(feature-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    grid-column: 4/5;
+    background-image: url(feature-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    grid-column: 5/6;
+    background-image: url(feature-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img5 {
+    grid-row: 3;
+    grid-column: 2/3;
+    background-image: url(feature-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img6 {
+    grid-row: 3;
+    grid-column: 3/4;
+    background-image: url(feature-6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img7 {
+    grid-row: 3;
+    grid-column: 4/5;
+    background-image: url(feature-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img8 {
+    grid-row: 3;
+    grid-column: 5/6;
+    background-image: url(feature-8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#valor1 {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+#valor2 {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+}
+
+#valor3 {
+    grid-column: 4;
+    grid-row: 2;
+    text-align: center;
+}
+
+#valor4 {
+    grid-column: 5;
+    grid-row: 2;
+    text-align: center;
+}
+
+#valor5 {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+#valor6 {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+
+#valor7 {
+    grid-column: 4;
+    grid-row: 4;
+    text-align: center;
+}
+
+#valor8 {
+    grid-column: 5;
+    grid-row: 4;
+    text-align: center;
+}
+
+.preco{
+    color: #1c1c1c;
+    font-family: 'Cairo';
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.trin{
+    color: #252525;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Cairo';
+}
+#doisimg{
+    grid-row: 5;
+}
+#banner1{
+    grid-column: 2/4;
+    background-image: url(banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner2{
+    grid-column: 4/6;
+    background-image: url(banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#latoprav-produ{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr 1.8fr 1.8fr 1fr;
+    grid-template-rows: 50px 114px 114px 114px;
+    gap: 20px;
+}
+
+.nomes{
+    font-family: 'Cairo';
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#Latest-Products{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.iconche{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+   
+}   
+
+.iconche svg{
+    width: 8px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.iconchefrom{
+    background-color: #dbdbdb;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border: solid rgb(3, 3, 3) 1px;
+}
+
+#Top-Products{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Review-Products{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ip-colum2{
+    grid-column: 2/3;
+    grid-row: 2;
+    
+}
+
+.ip{
+    display: flex;
+    gap: 8px;
+}
+
+#ip-linha3{
+    grid-column: 2/3;
+    grid-row: 3;  
+}
+
+#ip-linha4{
+    grid-column: 2/3;
+    grid-row: 4;  
+}
+
+#ip-colum3li2{
+    grid-column: 3/4;
+    grid-row: 2;  
+}
+
+#ip-colum3li3{
+    grid-column: 3/4;
+    grid-row: 3;  
+}
+
+#ip-colum3li4{
+    grid-column: 3/4;
+    grid-row: 4;  
+}
+
+#ip-colum4li2{
+    grid-column: 4/5;
+    grid-row: 2;  
+}
+
+#ip-colum4li3{
+    grid-column: 4/5;
+    grid-row: 3;  
+}
+
+#ip-colum4li4{
+    grid-column: 4/5;
+    grid-row: 4;  
+}
+
+.ip{
+    color: #1c1c1c;
+    font-family: 'Cairo';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#From-The-Blog{
+    padding-top: 35px;
+}
+
+#From-The-Blog h2 {
+    text-align: center;
+    color: #1c1c1c;
+    font-family: 'Cairo';
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+}
+
+#From-The-Blog h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+
+#from-blog{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr 1.8fr 1.8fr 1fr;
+    grid-template-rows: 258px 24px 24px 24px;
+}
+
+#prime{
+    grid-column: 2/3;
+}
+
+#blog-list-item1{
+    grid-row: 2;
+    grid-column: 2/3;
+    
+}
+
+.texto{
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.texto li{
+    margin: 0;
+    margin-top: 20px;
+     margin-left: 5px;
+}
+.icon-agenda{
+    width: 15px;
+    height: 5px;
+}
+
+.may-date{
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+.icon-con{
+    width: 15px;
+    height: 5px;
+}
+
+#h5-blog1{
+    grid-row: 3;
+    grid-column: 2/3;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 800;
+    font-family: 'Cairo';
+}
+
+#p-blog1{
+    grid-row: 4;
+    grid-column: 2/3;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+#prime2{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#blog-list-item2{
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+#h5-blog2{
+    grid-row: 3;
+    grid-column: 3/4;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 800;
+    font-family: 'Cairo';
+}
+
+#p-blog2{
+    grid-row: 4;
+    grid-column: 3/4;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+#prime3{
+    grid-column: 4/5;
+    grid-row: 1;
+}
+
+#blog-list-item3{
+    grid-row: 2;
+    grid-column: 4/5;
+}
+
+#h5-blog3{
+    grid-row: 3;
+    grid-column: 4/5;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 800;
+    font-family: 'Cairo';
+}
+
+#p-blog3{
+    grid-row: 4;
+    grid-column: 3/4;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+#ogani-fim{
+  
+    background: #F3F6FA;
+    padding-top: 70px;
+    padding-bottom: 0;
+  
+    position: relative;
+    top: 30vh;
+    width: auto;
+    
+}
+#logofim{
+    position: relative;
+    left: 20vw;
+    width: 10%;
+}
+#logofim ul li{
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 36px;
+    list-style: none;
+    font-family: "Cairo", sans-serif;
+    width: 50vw;
+    position: relative;
+    right: 2vw;
+   
+}
+#logofim ul{
+    margin-top: 1vh;
+}
+
+
+#Useful h6{
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 41.6vw;
+    width: 50vw;
+    right: 20vw;
+    
+}
+
+#Useful ul li a{
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 32px;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 39.5vw;
+
+ 
+}
+#Useful{
+    position: relative;
+    bottom: 20vh;
+    padding: 0;
+}
+#Useful ul{
+    list-style: none;
+}
+#Useful2 ul li a{
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 32px;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 50vw;
+
+ 
+}
+#Useful2{
+    position: relative;
+    bottom: 40vh;
+    padding: 0;
+}
+#Useful2 ul{
+    list-style: none;
+}
+#Email h6{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+}
+#Email p{
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+    font-family: "Cairo", sans-serif;
+}
+#Email input{
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+    overflow: visible;
+    width: 300px;
+}
+#Email button{
+    position: absolute;
+    height: 46px;
+    font-family: "Cairo", sans-serif;
+    width: 7vw;
+   
+}
+.site-btn{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #7fad39;
+    border: none;
+}
+#Email{
+    position: relative;
+    left: 61vw;
+    width: min-content;
+    bottom: 63vh;
+}
+#svgs a{
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+    font-size: 16px;
+    color: #404040;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background: #ffffff;
+    bottom: 60vh;
+    margin-right: 10px;
+    position: relative;
+    left: 61vw;
+}
+#linha{
+    position: relative;
+    left: 20vw;
+    width: 50%;
+    bottom: 55vh;
+    color: #d3cfcf;
+}
+#copyright p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+#copyright  p svg{
+    color: #6f6f6f;
+}
+#copyright a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+#copyright {
+    position: relative;
+    left:20vw;
+    width: 50%;
+    bottom: 53vh;
+}
+#pagamento{
+    position: relative;
+    left: 61vw;
+    bottom: 56vh;
+    width: 20%;
 }
